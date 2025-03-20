@@ -16,3 +16,10 @@ for i in a:
      for i in a:
          if i%2==0:
          print(a)
+
+
+
+         p,t,r =8,9,5
+
+         si =[p*t*r/100]
+         print(si)

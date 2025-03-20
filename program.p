@@ -9,4 +9,10 @@ print(a)
 
 for i in a:
      if i%2! =0:
-     print(i)
+     print(a)
+
+
+
+     for i in a:
+         if i%2==0:
+         print(a)

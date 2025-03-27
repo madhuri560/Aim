@@ -16,3 +16,17 @@ if num in a:
     print(f"{num} is present in the list:")
 else:
     print(f"{num} is not present in the list:")
+
+
+
+a=[60,20,40,50,10,15,33,75]
+even_number=[]
+odd_number=[]
+for num in a:
+    if num%2==0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
+print("even numbers:",even_numbers)
+print("odd numbers:",odd_numbers)
+

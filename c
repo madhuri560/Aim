@@ -6,4 +6,7 @@ case1:
 {
 printf(Btech aiml)
 }
+case2:
+{
+printf(cse)
 }

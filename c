@@ -10,3 +10,6 @@ case2:
 {
 printf(cse)
 }
+case 3:
+printf(ece)
+}

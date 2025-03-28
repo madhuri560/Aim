@@ -11,5 +11,11 @@ case2:
 printf(cse)
 }
 case 3:
+{
 printf(ece)
 }
+case 4:
+{
+print(mechanical)
+}
+

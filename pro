@@ -175,5 +175,10 @@ void printListReverse(Node* head)
         temp = temp->next;
     }
     // Traverse backwards
-    printf("Reverse List: ");}}}}}}
+    printf("Reverse List: ")while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->prev;
+    }
+    printf("\n");
+};}}}}}}
 

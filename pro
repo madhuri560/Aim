@@ -171,5 +171,9 @@ void printListReverse(Node* head)
     if (temp == NULL) {
         printf("The list is empty.\n");
         return;
-    }}}}}}
+     while (temp->next != NULL) {
+        temp = temp->next;
+    }
+    // Traverse backwards
+    printf("Reverse List: ");}}}}}}
 

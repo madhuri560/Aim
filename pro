@@ -110,5 +110,13 @@ void deleteAtBeginning(Node** head)
         (*head)->prev = NULL;
     }
     free(temp);
-};}}}
+};}}}void deleteAtEnd(Node** head)
+{
+    // checking if DLL is empty
+    if (*head == NULL) {
+        printf("The list is already empty.\n");
+        return;
+    }
+
+    Node* temp = *head;
 

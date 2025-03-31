@@ -112,4 +112,14 @@ void insertAtPosition()
     }
     newnode->link = temp->link;
     temp->link = newnode;
-}}}}
+void deleteFirst()
+{
+    struct node* temp;
+    if (start == NULL)
+        printf("\nList is empty\n");
+    else {
+        temp = start;
+        start = start->link;
+        free(temp);
+    }
+}`}}}}

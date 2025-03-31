@@ -230,4 +230,39 @@ void mean()
         // Print the mean value
         printf("\nMean is %f ", m);
     }
-}}}`}}}}
+void sort()
+{
+    struct node* current = start;
+    struct node* index = NULL;
+    int temp;
+
+    // If LL is empty
+    if (start == NULL) {
+        return;
+    }
+
+    // Else
+    else {
+
+        // Traverse the LL
+        while (current != NULL) {
+            index = current->link;
+
+            // Traverse the LL nestedly
+            // and find the minimum
+            // element
+            while (index != NULL) {
+
+                // Swap with it the value
+                // at current
+                if (current->info > index->info) {
+                    temp = current->info;
+                    current->info = index->info;
+                    index->info = temp;
+                }
+                index = index->link;
+            }
+
+            // Update the current
+            current = current->link;
+        }}}}`}}}}

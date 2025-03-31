@@ -15,4 +15,19 @@ Node* createNode(int data)
     newNode->prev = NULL;
     return newNode;
 }
+void insertAtBeginning(Node** head, int data)
+{
+    // creating new node
+    Node* newNode = createNode(data);
+
+    // check if DLL is empty
+    if (*head == NULL) {
+        *head = newNode;
+        return;
+    }
+    newNode->next = *head;
+    (*head)->prev = newNode;
+    *head = newNode;
+}
+
 

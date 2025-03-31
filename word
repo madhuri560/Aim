@@ -10,4 +10,6 @@ scanf("%lf",&second);
 temp=first;
 
 
+first=second;
+
 

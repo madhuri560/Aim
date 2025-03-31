@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Linked List Node
+struct node {
+    int info;
+    struct node* link;
+};
+struct node* start = NULL;

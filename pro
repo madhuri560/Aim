@@ -128,5 +128,11 @@ void deleteAtBeginning(Node** head)
     }
     temp->prev->next = NULL;
     free(temp);
-};
+void deleteAtPosition(Node** head, int position)
+{
+    if (*head == NULL) {
+        printf("The list is already empty.\n");
+        return;
+    }
+    Node* temp = *head;};
 

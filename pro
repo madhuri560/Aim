@@ -98,5 +98,13 @@ if (position == 1) {
     }
     temp->next = newNode;
 }
-}}}
+void deleteAtBeginning(Node** head)
+{
+    // checking if the DLL is empty
+    if (*head == NULL) {
+        printf("The list is already empty.\n");
+        return;
+    }
+    Node* temp = *head;
+    *head = (*head)->next;}}}
 

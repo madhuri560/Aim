@@ -143,5 +143,7 @@ void deleteAtPosition(Node** head, int position)
     }};};if (position == 1) {
         deleteAtBeginning(head);
         return;
-    }
+     for (int i = 1; temp != NULL && i < position; i++) {
+        temp = temp->next;
+    }}
 

@@ -167,4 +167,33 @@ void deletePosition()
         // Free memory
         free(position);
     }
-}`}}}}
+void maximum()
+{
+    int a[10];
+    int i;
+    struct node* temp;
+
+    // If LL is empty
+    if (start == NULL)
+        printf("\nList is empty\n");
+
+    // Otherwise
+    else {
+        temp = start;
+        int max = temp->info;
+
+        // Traverse LL and update the
+        // maximum element
+        while (temp != NULL) {
+
+            // Update the maximum
+            // element
+            if (max < temp->info)
+                max = temp->info;
+            temp = temp->link;
+        }
+        printf("\nMaximum number "
+               "is : %d ",
+               max);
+    }
+}}`}}}}

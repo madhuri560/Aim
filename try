@@ -36,4 +36,11 @@ void createList()
                 scanf("%d", &data);
                 newnode->info = data;
                 temp = temp->link;
-            }
+            
+	    }
+	    printf("\nThe list is created\n");
+    }
+    else
+        printf("\nThe list is already created\n");
+}
+

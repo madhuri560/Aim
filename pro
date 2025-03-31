@@ -86,5 +86,17 @@ if (position == 1) {
     Node* temp = *head;
     for (int i = 1; temp != NULL && i < position - 1; i++) {
         temp = temp->next;
-    }}}
+    if (temp == NULL) {
+        printf(
+            "Position greater than the number of nodes.\n");
+        return;
+    }
+    newNode->next = temp->next;
+    newNode->prev = temp;
+    if (temp->next != NULL) {
+        temp->next->prev = newNode;
+    }
+    temp->next = newNode;
+}
+}}}
 

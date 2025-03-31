@@ -145,5 +145,9 @@ void deleteAtPosition(Node** head, int position)
         return;
      for (int i = 1; temp != NULL && i < position; i++) {
         temp = temp->next;
-    }}
+     if (temp == NULL) {
+        printf("Position is greater than the number of "
+               "nodes.\n");
+        return;
+    }}}
 

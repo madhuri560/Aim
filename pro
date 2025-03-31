@@ -191,5 +191,16 @@ nt main()
     insertAtPosition(&head, 15, 2); // Lisprintf("After Insertions:\n");
     printListForward(head);
     printListReverse(head);
-t};}}}}}}
+printf("After Insertions:\n");
+    printListForward(head);
+    printListReverse(head);
+deleteAtBeginning(&head); // List: 15 10 20
+    deleteAtEnd(&head); // List: 15 10
+    deleteAtPosition(&head, 2); // List: 15
+
+    printf("After Deletions:\n");
+    printListForward(head);
+
+    return 0;
+}};}}}}}}
 

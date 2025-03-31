@@ -46,5 +46,12 @@ void insertAtEnd(Node** head, int data)
     }
     temp->next = newNode;
     newNode->prev = temp;
+void insertAtPosition(Node** head, int data, int position)
+{
+    if (position < 1) {
+        printf("Position should be >= 1.\n");
+        return;
+    }
 }
+
 

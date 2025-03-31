@@ -118,5 +118,15 @@ void deleteAtBeginning(Node** head)
         return;
     }
 
-    Node* temp = *head;
+    Node* temp = *headif (temp->next == NULL) {
+        *head = NULL;
+        free(temp);
+        return;
+    }
+    while (temp->next != NULL) {
+        temp = temp->next;
+    }
+    temp->prev->next = NULL;
+    free(temp);
+};
 

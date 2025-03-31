@@ -188,5 +188,8 @@ nt main()
     insertAtEnd(&head, 10);
     insertAtEnd(&head, 20);
     insertAtBeginning(&head, 5);
-    insertAtPosition(&head, 15, 2); // List};}}}}}}
+    insertAtPosition(&head, 15, 2); // Lisprintf("After Insertions:\n");
+    printListForward(head);
+    printListReverse(head);
+t};}}}}}}
 

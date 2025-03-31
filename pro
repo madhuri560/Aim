@@ -180,5 +180,13 @@ void printListReverse(Node* head)
         temp = temp->prev;
     }
     printf("\n");
-};}}}}}}
+nt main()
+{
+    Node* head = NULL;
+
+    // Demonstrating various operations
+    insertAtEnd(&head, 10);
+    insertAtEnd(&head, 20);
+    insertAtBeginning(&head, 5);
+    insertAtPosition(&head, 15, 2); // List};}}}}}}
 

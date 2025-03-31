@@ -337,4 +337,33 @@ if (found == 1) {
                    key);
         }
     }
-}}}}}}`}}}}
+int main()
+{
+    createList();
+    int choice;
+    while (1) {
+
+        printf("\n\t1 To see list\n");
+        printf("\t2 For insertion at"
+               " starting\n");
+        printf("\t3 For insertion at"
+               " end\n");
+        printf("\t4 For insertion at "
+               "any position\n");
+        printf("\t5 For deletion of "
+               "first element\n");
+        printf("\t6 For deletion of "
+               "last element\n");
+        printf("\t7 For deletion of "
+               "element at any position\n");
+        printf("\t8 To find maximum among"
+               " the elements\n");
+        printf("\t9 To find mean of "
+               "the elements\n");
+        printf("\t10 To sort element\n");
+        printf("\t11 To reverse the "
+               "linked list\n");
+        printf("\t12 Search an element in linked list\n");
+        printf("\t13 To exit\n");
+        printf("\nEnter Choice :\n");
+        scanf("%d", &choice);}}}}}}`}}}}

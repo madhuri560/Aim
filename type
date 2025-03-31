@@ -20,7 +20,12 @@
 
  return 0;
 
- }
+printf("hello world");
+printf("hi");
+printf("AUB");
+
+}
+
 
 
 

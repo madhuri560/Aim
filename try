@@ -265,4 +265,38 @@ void sort()
 
             // Update the current
             current = current->link;
-        }}}}`}}}}
+        void reverseLL()
+{
+    struct node *t1, *t2, *temp;
+    t1 = t2 = NULL;
+
+    // If LL is empty
+    if (start == NULL)
+        printf("List is empty\n");
+
+    // Else
+    else {
+
+        // Traverse the LL
+        while (start != NULL) {
+
+            // reversing of points
+            t2 = start->link;
+            start->link = t1;
+            t1 = start;
+            start = t2;
+        }
+        start = t1;
+
+        // New head Node
+        temp = start;
+
+        printf("Reversed linked "
+               "list is : ");
+
+        // Print the LL
+        while (temp != NULL) {
+            printf("%d ", temp->info);
+            temp = temp->link;
+        }
+    }}}}}`}}}}

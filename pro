@@ -134,5 +134,14 @@ void deleteAtPosition(Node** head, int position)
         printf("The list is already empty.\n");
         return;
     }
-    Node* temp = *head;};
+    Node* temp = *headif (position == 1) {
+        deleteAtBeginning(head);
+        return;
+    if (position == 1) {
+        deleteAtBeginning(head);
+        return;
+    }};};if (position == 1) {
+        deleteAtBeginning(head);
+        return;
+    }
 

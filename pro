@@ -106,5 +106,9 @@ void deleteAtBeginning(Node** head)
         return;
     }
     Node* temp = *head;
-    *head = (*head)->next;}}}
+    *head = (*head)->next if (*head != NULL) {
+        (*head)->prev = NULL;
+    }
+    free(temp);
+};}}}
 

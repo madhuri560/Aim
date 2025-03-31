@@ -165,5 +165,11 @@ void printListForward(Node* head)
         temp = temp->next;
     }
     printf("\n");
-}}}}}
+void printListReverse(Node* head)
+{
+    Node* temp = head;
+    if (temp == NULL) {
+        printf("The list is empty.\n");
+        return;
+    }}}}}}
 

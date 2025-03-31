@@ -299,4 +299,31 @@ void sort()
             printf("%d ", temp->info);
             temp = temp->link;
         }
-    }}}}}`}}}}
+    void search()
+{
+    int found = -1;
+    // creating node to traverse
+    struct node* tr = start;
+
+    // first checking if the list is empty or not
+    if (start == NULL) {
+        printf("Linked list is empty\n");
+    }
+    else {
+        printf("\nEnter the element you want to search: ");
+        int key;
+        scanf("%d", &key);
+
+        // checking by traversing
+        while (tr != NULL) {
+            // checking for key
+            if (tr->info == key) {
+                found = 1;
+                break;
+            }
+            // moving forward if not at this position
+            else {
+                tr = tr->link;
+            }
+        }
+}}}}}`}}}}

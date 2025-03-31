@@ -366,4 +366,34 @@ int main()
         printf("\t12 Search an element in linked list\n");
         printf("\t13 To exit\n");
         printf("\nEnter Choice :\n");
-        scanf("%d", &choice);}}}}}}`}}}}
+        scanf("%d", &choice)switch (choice) {
+        case 1:
+            traverse();
+            break;
+        case 2:
+            insertAtFront();
+            break;
+        case 3:
+            insertAtEnd();
+            break;
+        case 4:
+            insertAtPosition();
+            break;
+        case 5:
+            deleteFirst();
+            break;
+        case 6:
+            deleteEnd();
+            break;
+        case 7:
+            deletePosition();
+            break;
+        case 8:
+            maximum();
+            break;
+        case 9:
+            mean();
+            break;
+        case 10:
+            sort();
+            break;;}}}}}}`}}}}

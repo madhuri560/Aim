@@ -196,4 +196,38 @@ void maximum()
                "is : %d ",
                max);
     }
-}}`}}}}
+void mean()
+{
+    int a[10];
+    int i;
+    struct node* temp;
+
+    // If LL is empty
+    if (start == NULL)
+        printf("\nList is empty\n");
+
+    // Otherwise
+    else {
+        temp = start;
+
+        // Stores the sum and count of
+        // element in the LL
+        int sum = 0, count = 0;
+        float m;
+
+        // Traverse the LL
+        while (temp != NULL) {
+
+            // Update the sum
+            sum = sum + temp->info;
+            temp = temp->link;
+            count++;
+        }
+
+        // Find the mean
+        m = sum / count;
+
+        // Print the mean value
+        printf("\nMean is %f ", m);
+    }
+}}}`}}}}

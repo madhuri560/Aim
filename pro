@@ -156,5 +156,14 @@ void deleteAtPosition(Node** head, int position)
         temp->prev->next = temp->next;
     }
     free(temp);
-}}}}
+void printListForward(Node* head)
+{
+    Node* temp = head;
+    printf("Forward List: ");
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}}}}}
 

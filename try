@@ -396,4 +396,30 @@ int main()
             break;
         case 10:
             sort();
-            break;;}}}}}}`}}}}
+            breakcase 11:
+            reverseLL();
+            break;
+        case 12:
+            search();
+            break;
+        case 13:
+            exit(1);
+            break;
+        default:
+            printf("Incorrect Choice\n");
+        }
+    }
+    return 0;case 11:
+            reverseLL();
+            break;
+        case 12:
+            search();
+            break;
+        case 13:
+            exit(1);
+            break;
+        default:
+            printf("Incorrect Choice\n");
+        }
+    }
+    return 0;;;}}}}}}`}}}}

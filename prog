@@ -52,4 +52,6 @@ head = head->next;
    //return the deleted link
    return tempLink;
 }
-;} ;};}
+void printList(){
+   struct node *ptr = head;
+   printf("\n[ ");;} ;};}

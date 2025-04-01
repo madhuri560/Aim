@@ -43,4 +43,8 @@ void insertFirst(int key, int data){
 truct node * deleteFirst(){
 
    //save reference to first link
-   struct node *tempLink = head;} ;};}
+   struct node *tempLink = headif(head->next == head) {
+      head = NULL;
+      return tempLink;
+   }
+;} ;};}

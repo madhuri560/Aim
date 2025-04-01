@@ -17,6 +17,12 @@ int isfull(){
 int peek(){
    return stack[top];
 }
-
+int pop(){
+   int data;
+   if(!isempty()) {
+      data = stack[top];
+      top = top - 1;
+      return data;
+   } 
 
 

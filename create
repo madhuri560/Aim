@@ -37,5 +37,14 @@ else {
       printf("Could not insert data, Stack is full.\n");
    }
 }
+int main(){
+   push(44);
+   push(10);
+   push(62);
+   push(123);
+   push(15);
+   printf("Element at top of the stack: %d\n" ,peek());
+   printf("Elements: \n");
+
 
 

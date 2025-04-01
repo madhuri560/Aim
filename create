@@ -33,6 +33,9 @@ int push(int data){
       top = top + 1;
       stack[top] = data;
    }
-
+else {
+      printf("Could not insert data, Stack is full.\n");
+   }
+}
 
 

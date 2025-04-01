@@ -54,4 +54,11 @@ head = head->next;
 }
 void printList(){
    struct node *ptr = head;
-   printf("\n[ ");;} ;};}
+   printf("\n[ ")if(head != NULL) {
+      while(ptr->next != ptr) {
+         printf("(%d,%d) ",ptr->key,ptr->data);
+         ptr = ptr->next;
+      }
+   }
+   printf(" ]");
+};;} ;};}

@@ -9,3 +9,7 @@ struct node {
 };
 struct node *head = NULL;
 struct node *current = NULL;
+
+bool isEmpty(){
+   return head == NULL;
+}

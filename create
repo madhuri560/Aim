@@ -8,3 +8,11 @@ int isempty(){
    else
       return 0;
 }
+int isfull(){
+   if(top == MAXSIZE)
+      return 1;
+   else
+      return 0;
+}
+
+

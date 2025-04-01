@@ -45,6 +45,9 @@ int main(){
    push(15);
    printf("Element at top of the stack: %d\n" ,peek());
    printf("Elements: \n");
-
+while(!isempty()) {
+      int data = pop();
+      printf("%d\n",data);
+   }
 
 

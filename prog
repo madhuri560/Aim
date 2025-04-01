@@ -19,4 +19,9 @@ int length(){
    if(head == NULL) {
       return 0;
    }
-   current = head->next;}
+   current = head->nextwhile(current != head) {
+      length++;
+      current = current->next;
+   }
+   return length;
+};}

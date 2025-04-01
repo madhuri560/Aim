@@ -75,4 +75,6 @@ int main(){
       struct node *temp = deleteFirst();
       printf("\nDeleted value:");
       printf("(%d,%d) ",temp->key,temp->data);
-   };};;} ;};}
+   };};;} ;};}printf("\nList after deleting all items: ");
+   printList();
+}

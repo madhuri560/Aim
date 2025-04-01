@@ -51,5 +51,7 @@ while(!isempty()) {
    }
     printf("Stack full: %s\n" , isfull()?"true":"false");
    printf("Stack empty: %s\n" , isempty()?"true":"false");
+   return 0;
+}
 
 

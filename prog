@@ -12,4 +12,11 @@ struct node *current = NULL;
 
 bool isEmpty(){
    return head == NULL;
-}
+int length(){
+   int length = 0;
+
+   //if list is empty
+   if(head == NULL) {
+      return 0;
+   }
+   current = head->next;}

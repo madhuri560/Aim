@@ -14,5 +14,9 @@ int isfull(){
    else
       return 0;
 }
+int peek(){
+   return stack[top];
+}
+
 
 

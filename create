@@ -28,5 +28,11 @@ int pop(){
       printf("Could not retrieve data, Stack is empty.\n");
    }
 }
+int push(int data){
+   if(!isfull()) {
+      top = top + 1;
+      stack[top] = data;
+   }
+
 
 

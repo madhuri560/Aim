@@ -24,4 +24,9 @@ int length(){
       current = current->next;
    }
    return length;
-};}
+void insertFirst(int key, int data){
+
+   //create a link
+   struct node *link = (struct node*) malloc(sizeof(struct node));
+   link->key = key;
+   link->data = data;};}

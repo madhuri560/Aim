@@ -21,3 +21,6 @@ while True:
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
+	    if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+

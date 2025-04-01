@@ -32,4 +32,12 @@ void insertFirst(int key, int data){
    link->data = dataif (isEmpty()) {
       head = link;
       head->next = head;
-   } ;};}
+   }else {
+
+      //point it to old first node
+      link->next = head;
+
+      //point first to new first node
+      head = link;
+   }
+} ;};}

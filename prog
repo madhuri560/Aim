@@ -47,4 +47,9 @@ truct node * deleteFirst(){
       head = NULL;
       return tempLink;
    }
+head = head->next;
+
+   //return the deleted link
+   return tempLink;
+}
 ;} ;};}

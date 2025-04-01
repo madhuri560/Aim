@@ -40,4 +40,7 @@ void insertFirst(int key, int data){
       //point first to new first node
       head = link;
    }
-} ;};}
+truct node * deleteFirst(){
+
+   //save reference to first link
+   struct node *tempLink = head;} ;};}

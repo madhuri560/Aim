@@ -71,4 +71,8 @@ int main(){
    printf("Original List: ");
 
    //print list
-   printList();};;} ;};}
+   printList()while(!isEmpty()) {
+      struct node *temp = deleteFirst();
+      printf("\nDeleted value:");
+      printf("(%d,%d) ",temp->key,temp->data);
+   };};;} ;};}

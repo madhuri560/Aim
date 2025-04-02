@@ -47,3 +47,9 @@ void printQueue(Queue* q)
         printf("Queue is empty\n");
         return;
     }
+    printf("Current Queue: ");
+    for (int i = q->front + 1; i < q->rear; i++) {
+        printf("%d ", q->items[i]);
+    }
+    printf("\n");
+}

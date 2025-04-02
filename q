@@ -52,4 +52,8 @@ void printQueue(Queue* q)
         printf("%d ", q->items[i]);
     }
     printf("\n");
-}
+int main()
+{
+    Queue q;
+    initializeQueue(&q);}
+

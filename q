@@ -56,4 +56,6 @@ int main()
 {
     Queue q;
     initializeQueue(&q);}
+enqueue(&q, 10);
+    printQueue(&q);
 

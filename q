@@ -24,4 +24,11 @@ void enqueue(Queue* q, int value)
     q->items[q->rear] = value;
     q->rear++;
 }
-
+void dequeue(Queue* q)
+{
+    if (isEmpty(q)) {
+        printf("Queue is empty\n");
+        return;
+    }
+    q->front++;
+}

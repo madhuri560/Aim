@@ -30,4 +30,5 @@ printf("%d   ", sum[i][j]);
         printf("\n\n");
       }
     }
-
+ return 0;
+}

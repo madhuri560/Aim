@@ -60,4 +60,6 @@ enqueue(&q, 10);
     printQueue(&q);
 enqueue(&q, 20);
     printQueue(&q);
+enqueue(&q, 30);
+    printQueue(&q);
 

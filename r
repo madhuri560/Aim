@@ -5,3 +5,5 @@ int main() {
   scanf("%d", &r);
   printf("Enter the number of columns (between 1 and 100): ");
   scanf("%d", &c);
+
+  printf("\nEnter elements of 1st matrix:\n");

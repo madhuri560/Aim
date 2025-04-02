@@ -58,4 +58,6 @@ int main()
     initializeQueue(&q);}
 enqueue(&q, 10);
     printQueue(&q);
+enqueue(&q, 20);
+    printQueue(&q);
 

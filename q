@@ -12,4 +12,4 @@ void initializeQueue(Queue* q)
     q->rear = 0;
 }
 bool isEmpty(Queue* q) { return (q->front == q->rear - 1); }
-
+bool isFull(Queue* q) { return (q->rear == MAX_SIZE); }

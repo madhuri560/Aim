@@ -41,3 +41,9 @@ int peek(Queue* q)
     }
      return q->items[q->front + 1];
 }
+void printQueue(Queue* q)
+{
+    if (isEmpty(q)) {
+        printf("Queue is empty\n");
+        return;
+    }

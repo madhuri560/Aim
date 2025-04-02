@@ -32,3 +32,12 @@ void dequeue(Queue* q)
     }
     q->front++;
 }
+int peek(Queue* q)
+{
+    if (isEmpty(q)) {
+        printf("Queue is empty\n");
+        return -1; // return some default value or handle
+                   // error differently
+    }
+     return q->items[q->front + 1];
+}

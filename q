@@ -62,4 +62,5 @@ enqueue(&q, 20);
     printQueue(&q);
 enqueue(&q, 30);
     printQueue(&q);
+printf("Front element: %d\n", peek(&q));
 

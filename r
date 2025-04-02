@@ -12,3 +12,4 @@ int main() {
       printf("Enter element a%d%d: ", i + 1, j + 1);
       scanf("%d", &a[i][j]);
     }
+      printf("Enter elements of 2nd matrix:\n");

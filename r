@@ -23,3 +23,6 @@ int main() {
      sum[i][j] = a[i][j] + b[i][j];
     }
 printf("\nSum of two matrices: \n");
+for (i = 0; i < r; ++i)
+    for (j = 0; j < c; ++j) {
+

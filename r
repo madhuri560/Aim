@@ -18,4 +18,5 @@ int main() {
      printf("Enter element b%d%d: ", i + 1, j + 1);
       scanf("%d", &b[i][j]);
     }
-
+ for (i = 0; i < r; ++i)
+    for (j = 0; j < c; ++j) {

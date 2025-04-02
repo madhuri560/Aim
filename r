@@ -25,4 +25,9 @@ int main() {
 printf("\nSum of two matrices: \n");
 for (i = 0; i < r; ++i)
     for (j = 0; j < c; ++j) {
+printf("%d   ", sum[i][j]);
+      if (j == c - 1) {
+        printf("\n\n");
+      }
+    }
 

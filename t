@@ -23,4 +23,5 @@ else if (discriminant == 0) {
 	imagPart = sqrt(-discriminant) / (2 * a);
         printf("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi", realPart, imagPart, realPart, imagPart);
     }
-
+ return 0;
+} 

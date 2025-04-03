@@ -6,3 +6,6 @@ int main() {
     scanf("%lf %lf %lf", &a, &b, &c);
 
     discriminant = b * b - 4 * a * c;
+
+  if (discriminant > 0) {
+        root1 = (-b + sqrt(discriminant)) / (2 * a);

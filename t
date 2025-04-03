@@ -9,3 +9,6 @@ int main() {
 
   if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2 * a);
+	root2 = (-b - sqrt(discriminant)) / (2 * a);
+        printf("root1 = %.2lf and root2 = %.2lf", root1, root2);
+    }

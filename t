@@ -14,3 +14,5 @@ int main() {
     }
 else if (discriminant == 0) {
         root1 = root2 = -b / (2 * a);
+	printf("root1 = root2 = %.2lf;", root1);
+    }

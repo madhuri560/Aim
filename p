@@ -7,3 +7,5 @@ int main()
         "All Armstrong number between 1 and 1000 are:\n");
 for (i = 1; i <= 1000; i++) {
         num = i;
+	 count++;
+        }

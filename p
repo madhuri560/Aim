@@ -8,4 +8,7 @@ int main()
 for (i = 1; i <= 1000; i++) {
         num = i;
 	 count++;
-        }
+                num = i;
+        sum = pow(num % 10, count)
+}
+

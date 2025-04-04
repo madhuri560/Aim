@@ -9,7 +9,8 @@ for (i = 1; i <= 1000; i++) {
         num = i;
 	 count++;
                 num = i;
-        sum = pow(num % 10, count)
+        sum = pow(num % 10, count);
 }
 + pow((num % 100 - num % 10) / 10, count)
-              + pow((num % 1000 - num % 100) / 100, count);
+              + pow((num % 1000 - num % 100) / 100, count)if (sum == i) {
+            printf("%d ", i);

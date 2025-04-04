@@ -14,3 +14,7 @@ for (i = 1; i <= 1000; i++) {
 + pow((num % 100 - num % 10) / 10, count)
               + pow((num % 1000 - num % 100) / 100, count)if (sum == i) {
             printf("%d ", i);
+	    }
+        count = 0;
+    }
+}

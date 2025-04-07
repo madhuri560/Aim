@@ -12,5 +12,7 @@ return s.equals(rev);
 public static void main(String[] args) {
       
         String s = "level";
+        boolean res = isPalindrome(s);
+
 
 

@@ -2,4 +2,6 @@ import java.io.*;
 
 public class Palindrome {
 public static boolean isPalindrome(String s) {
+s = s.toLowerCase();
+
 

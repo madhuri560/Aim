@@ -6,4 +6,7 @@ switch (day) {
 case 2:
     printf("Tuesday");
     break;
+case 3:
+    printf("Wednesday");
+    break;
 

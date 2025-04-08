@@ -18,4 +18,8 @@ case 5:
 case 6:
     printf("Saturday");
     break;
+case 7:
+    printf("Sunday");
+    break;
+}
 

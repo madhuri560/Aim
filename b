@@ -9,4 +9,7 @@ case 2:
 case 3:
     printf("Wednesday");
     break;
+case 4:
+    printf("Thursday");
+    break;
 

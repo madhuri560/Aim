@@ -15,4 +15,7 @@ case 4:
 case 5:
     printf("Friday");
     break;
+case 6:
+    printf("Saturday");
+    break;
 

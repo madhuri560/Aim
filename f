@@ -10,4 +10,6 @@ System.out.print("Enter the time: ");
 double time = input.nextDouble();
 System.out.print("Enter number of times interest is compounded per year: ");
 int number = input.nextInt();
+double amount = principal * Math.pow((1 + rate / 100), (time * number));
+double compoundInterest = amount - principal;
 

@@ -8,3 +8,6 @@ System.out.print("Enter the rate: ");
 double rate = input.nextDouble();
 System.out.print("Enter the time: ");
 double time = input.nextDouble();
+System.out.print("Enter number of times interest is compounded per year: ");
+int number = input.nextInt();
+

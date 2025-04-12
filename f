@@ -21,3 +21,8 @@ System.out.println("Compound Interest: " + compoundInterest);
 input.close();
 }
 }
+
+
+
+
+

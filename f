@@ -14,3 +14,5 @@ double amount = principal * Math.pow((1 + rate / 100), (time * number));
 double compoundInterest = amount - principal;
 System.out.println("Principal: " + principal);
 System.out.println("Interest Rate: " + rate);
+System.out.println("Time Duration: " + time);
+System.out.println("Number of Times Interest Compounded: " + number);

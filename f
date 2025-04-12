@@ -6,4 +6,5 @@ System.out.print("Enter the principal: ");
 double principal = input.nextDouble();
 System.out.print("Enter the rate: ");
 double rate = input.nextDouble();
-
+System.out.print("Enter the time: ");
+double time = input.nextDouble();

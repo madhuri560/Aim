@@ -6,3 +6,5 @@ public class AverageCalculator {
         int n = scanner.nextInt();
 	double[] numbers = new double[n];
         double sum = 0.0;
+	System.out.println("Enter the numbers:");
+        for (int i = 0; i < n; i++) {

@@ -16,3 +16,8 @@ public class AverageCalculator {
 	scanner.close();
     }
 }
+
+
+
+
+

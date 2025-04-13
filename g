@@ -11,3 +11,5 @@ public class AverageCalculator {
 	numbers[i] = scanner.nextDouble();
             sum += numbers[i];
         }
+	  double average = sum / n;
+        System.out.println("The average is: " + average);

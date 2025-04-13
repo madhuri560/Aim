@@ -4,3 +4,5 @@ public class AverageCalculator {
         Scanner scanner = new Scanner(System.in);
 	System.out.print("Enter the number of elements: ");
         int n = scanner.nextInt();
+	double[] numbers = new double[n];
+        double sum = 0.0;

@@ -13,3 +13,6 @@ public class AverageCalculator {
         }
 	  double average = sum / n;
         System.out.println("The average is: " + average);
+	scanner.close();
+    }
+}

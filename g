@@ -8,3 +8,6 @@ public class AverageCalculator {
         double sum = 0.0;
 	System.out.println("Enter the numbers:");
         for (int i = 0; i < n; i++) {
+	numbers[i] = scanner.nextDouble();
+            sum += numbers[i];
+        }

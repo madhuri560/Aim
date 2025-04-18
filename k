@@ -21,3 +21,7 @@ System.out.println("GCD = " + gcd(b, a));
     }
 }
 
+
+
+
+

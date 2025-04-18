@@ -8,4 +8,4 @@ static int gcd(int a, int b)
         int i;
 
 
-
+for (i = i; i > 1; i--) {

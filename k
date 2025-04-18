@@ -14,3 +14,7 @@ if (a % i == 0 && b % i == 0)
         }
 return 1;
     }
+    public static void main(String[] args)
+    {
+
+

@@ -14,3 +14,6 @@ System.out.print("Enter the number of units consumed: ");
 if (units <= 100) {
             amount = units * 1.50;
         }
+	else if (units <= 300) {
+            amount = 100 * 1.50 + (units - 100) * 2.00;
+        }

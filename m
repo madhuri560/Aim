@@ -6,3 +6,4 @@ public class ElectricityBillCalculator {
 Scanner scanner = new Scanner(System.in);
 System.out.print("Enter the number of units consumed: ");
         int units = scanner.nextInt();
+	double billAmount = calculateBill(units);

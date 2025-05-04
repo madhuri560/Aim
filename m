@@ -9,3 +9,5 @@ System.out.print("Enter the number of units consumed: ");
 	double billAmount = calculateBill(units);
 	System.out.printf("The electricity bill for %d units is: ₹%.2f%n", units, billAmount);
     }
+    public static double calculateBill(int units) {
+        double amount;

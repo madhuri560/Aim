@@ -20,3 +20,6 @@ if (units <= 100) {
 else {
             amount = 100 * 1.50 + 200 * 2.00 + (units - 300) * 3.00;
         }
+	return amount;
+    }
+}

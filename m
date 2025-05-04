@@ -11,3 +11,6 @@ System.out.print("Enter the number of units consumed: ");
     }
     public static double calculateBill(int units) {
         double amount;
+if (units <= 100) {
+            amount = units * 1.50;
+        }

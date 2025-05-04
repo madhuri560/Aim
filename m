@@ -17,3 +17,6 @@ if (units <= 100) {
 	else if (units <= 300) {
             amount = 100 * 1.50 + (units - 100) * 2.00;
         }
+else {
+            amount = 100 * 1.50 + 200 * 2.00 + (units - 300) * 3.00;
+        }

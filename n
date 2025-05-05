@@ -9,4 +9,5 @@ public static void main(String[] args) {
 	System.out.println("The area of the equilateral triangle is: " + area);
         
         scanner.close();
-
+}
+}

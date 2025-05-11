@@ -9,3 +9,6 @@ int main() {
 	 } while (i <= 10);
 	 printf("\n");
 	 i = 10;
+	 printf("\nPrint numbers from 10 to 1:\n");
+    do {
+        printf("%d ", i);

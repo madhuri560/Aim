@@ -5,3 +5,4 @@ int main() {
     printf("Print numbers from 1 to 10:\n");
     do {
         printf("%d ", i);
+	 i++;

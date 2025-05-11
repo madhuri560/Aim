@@ -12,3 +12,4 @@ int main() {
 	 printf("\nPrint numbers from 10 to 1:\n");
     do {
         printf("%d ", i);
+	i--;

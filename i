@@ -6,3 +6,4 @@ int main() {
     do {
         printf("%d ", i);
 	 i++;
+	 } while (i <= 10);

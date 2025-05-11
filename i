@@ -14,3 +14,4 @@ int main() {
         printf("%d ", i);
 	i--;
 	} while (i >= 1);
+	return 0;

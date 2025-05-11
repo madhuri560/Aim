@@ -8,3 +8,4 @@ int main() {
 	 i++;
 	 } while (i <= 10);
 	 printf("\n");
+	 i = 10;

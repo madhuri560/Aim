@@ -2,3 +2,5 @@
 int main()
 {
 int n, lastDigit;
+ printf("Enter any number: ");
+    scanf("%d", &n);

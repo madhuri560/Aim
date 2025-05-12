@@ -7,4 +7,8 @@ int n, lastDigit;
     lastDigit = n % 10;
      printf("Last digit = %d", lastDigit);
      return 0;
-     }
+    }
+
+
+
+

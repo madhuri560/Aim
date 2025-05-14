@@ -8,3 +8,5 @@ printf("%c is a vowel.\n", ch);
 } else {
 printf("%c is not a vowel.\n", ch);
 }
+return 0;
+}

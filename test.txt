@@ -2,9 +2,18 @@ AUB
 AIML
 BTECH
 AMITY
+
 BANGLORE CSE
 test1
 test3
 fgwxf
 xghwabc
+BANGLORE aiml amity
+fgwxf
+xghwdef
+test5
+test6
+out of aub
+noida
+
 
